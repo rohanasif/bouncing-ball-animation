@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.name {
+    width: 100%;
+    height: 20vh;
+    background-image: linear-gradient(to right bottom, red, green);
+    border: 1px solid;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.name>h1 {
+    font-size: 50px;
+    color: yellow;
+    transition-duration: 2s;
+}
+
+.name>h1:hover {
+    transform: skew(20deg);
+    cursor: pointer;
+    color: aqua;
+    transition-duration: 2s;
+}
