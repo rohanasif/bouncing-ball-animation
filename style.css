@@ -94,3 +94,12 @@
     margin-top: 251px;
 }
 
+.cylinder {
+    margin-left: 40px;
+    margin-top: -520px;
+    float: left;
+    width: 100px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 20px;
+}
