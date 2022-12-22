@@ -5,11 +5,11 @@
 
 .name {
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     background-image: linear-gradient(to right bottom, red, green);
     border: 1px solid;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 3vh;
 }
 
 .name>h1 {
@@ -26,7 +26,7 @@
 }
 
 .bar {
-    width: 50vh;
+    width: 400px;
     height: 8vh;
     border: 1px solid;
     border-radius: 20px;
@@ -36,7 +36,7 @@
 }
 
 .inner-bar {
-    width: 50vh;
+    width: 400px;
     height: 8vh;
     border-radius: 20px;
     position: absolute;
@@ -67,3 +67,30 @@
     }
 
 }
+
+.graph {
+    width: 400px;
+    height: 60vh;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 30px 450px;
+}
+
+.one {
+    float: left;
+    width: 30px;
+    height: 200px;
+    background-color: aqua;
+    margin-left: 40px;
+    margin-top: 201px;
+}
+
+.two {
+    float: left;
+    width: 30px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: 40px;
+    margin-top: 251px;
+}
+
